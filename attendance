@@ -1,0 +1,132 @@
+<h1> ATTENDENCE </h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th class="name-col">SUBJECTS</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    
+                    <th class="missed-col">Days Missed-col</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="student">
+                    <td class="name-col">MATHS</td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="missed-col">0</td>
+                </tr>
+                <tr class="student">
+                    <td class="name-col">DD</td>
+                    
+                  
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="missed-col">0</td>
+                </tr>
+                <tr class="student">
+                    <td class="name-col">OS</td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    
+                    <td class="missed-col">0</td>
+                </tr>
+                <tr class="student">
+                    <td class="name-col">DS</td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="missed-col">0</td>
+                </tr>
+                <tr class="student">
+                    <td class="name-col">OOPJ</td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="missed-col">0</td>
+                </tr>
+              <tr class="student">
+                    <td class="name-col">SCR</td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="missed-col">0</td>
+                </tr>
+              <tr class="student">
+                    <td class="name-col">DS LAB</td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="missed-col">0</td>
+                </tr>
+              <tr class="student">
+                    <td class="name-col">OS LAB</td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="missed-col">0</td>
+                </tr>
+              <tr class="student">
+                    <td class="name-col">DD LAB</td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox"></td>
+                    <td class="missed-col">0</td>
+                </tr>
+              <tr class="student">
+                    <td class="name-col">PYTHON LAB</td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" ></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="missed-col">0</td>
+                </tr>
+              <tr class="student">
+                    <td class="name-col">JAVA LAB</td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" ></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="attend-col"><input type="checkbox" DISABLED></td>
+                    <td class="missed-col">1</td>
+                </tr>
+            </tbody>
+        </table>
