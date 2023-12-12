@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Type Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        input {
+            padding: 5px;
+            margin-bottom: 15px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Are you a student or a teacher?</h2>
+    
+    <form>
+        <label>
+            <input type="radio" name="userType" value="student"> Student
+        </label>
+        <label>
+            <input type="radio" name="userType" value="teacher"> Teacher
+        </label>
+
+        <br>
+
+        <button type="button" onclick="checkUserType()">Submit</button>
+    </form>
+
+    <script>
+        function checkUserType() {
+            var userTypeElements = document.getElementsByName("userType");
+            var userType;
+
+            for (var i = 0; i < userTypeElements.length; i++) {
+                if (userTypeElements[i].checked) {
+                    userType = userTypeElements[i].value;
+                    break;
+                }
+            }
+
+            if (userType) {
+                alert("You are a " + userType + ".");
+                // You can perform further actions based on the user type here
+            } else {
+                alert("Please select whether you are a student or a teacher.");
+            }
+        }
+    </script>
+</body>
+</html>
